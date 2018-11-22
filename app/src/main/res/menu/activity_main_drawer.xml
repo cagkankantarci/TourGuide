@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/layout_main"
+            android:icon="@drawable/house"
+            android:title="Home" />
+        <item
+            android:id="@+id/layout_where_to_go"
+            android:icon="@drawable/destination"
+            android:title="Where should we go?" />
+        <item
+            android:id="@+id/layout_taste"
+            android:icon="@drawable/rest"
+            android:title="What should we taste?" />
+        <item
+            android:id="@+id/layout_cafes"
+            android:icon="@drawable/coffeecup"
+            android:title="Cafe or Restaurant" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/activity_general_maps"
+                android:icon="@drawable/map"
+                android:title="Map" />
+            <item
+                android:id="@+id/layout_emergency"
+                android:icon="@drawable/medicalkit"
+                android:title="Emergency" />
+        </menu>
+    </item>
+
+</menu>
